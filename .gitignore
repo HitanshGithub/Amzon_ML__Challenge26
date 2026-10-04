@@ -1,0 +1,20 @@
+# data and large artefacts (not committed; the dataset is distributed by the challenge)
+dataset/
+sample_dataset/
+french/
+work*/
+*.parquet
+*.npy
+*.zip
+
+# run outputs: only the submitted file is kept (output_v6ens_src/matching_results.tsv)
+output*/
+!output_v6ens_src/
+output_v6ens_src/*
+!output_v6ens_src/matching_results.tsv
+
+# junk
+__pycache__/
+*.pyc
+.DS_Store
+__MACOSX/
