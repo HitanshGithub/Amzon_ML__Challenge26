@@ -2,7 +2,7 @@
 
 Team **COMPUTATION_ISSUE** (Hitansh Jain, Utkarsh Pise, Paras Rana — IIIT Nagpur).
 Task: for every Source 1 business record, find all matching Source 2 / Source 3 records across US, India
-and (test-only) France; scored by macro F0.5. Public leaderboard best: **0.984044** (run `v6ens_src`).
+and (test-only) France; scored by macro F0.5. Public leaderboard best: **0.984044** (run `v6ens_src`) — **final rank 556**.
 
 ## Repository layout
 
