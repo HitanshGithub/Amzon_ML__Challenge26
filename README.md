@@ -2,7 +2,7 @@
 
 Team **COMPUTATION_ISSUE** (Hitansh Jain, Utkarsh Pise, Paras Rana — IIIT Nagpur).
 Task: for every Source 1 business record, find all matching Source 2 / Source 3 records across US, India
-and (test-only) France; scored by macro F0.5. Final leaderboard: **0.9843** macro-F0.5, **rank 556** (run `v6ens_src`; public leaderboard 0.984044).
+and (test-only) France; scored by macro F0.5. Best leaderboard score: **0.9843** macro-F0.5, **rank 556** (run `v6ens_src`).
 
 ## Repository layout
 
@@ -27,6 +27,6 @@ APIs or lookups were used.
 | v1 | separate name/address blocking, one LightGBM | 0.9672 | 0.9597 |
 | v2 | joint blocking, two-stage LightGBM | 0.9828 | 0.9735 |
 | v3 | + cross-encoder + cluster-consistency features | 0.9883 | 0.9835 |
-| **v6ens_src** | decoy-simulated training, CE v2+v3 ensemble, 3 seeds, per-source thresholds | 0.9889 | **0.9840** (final board **0.9843**) |
+| **v6ens_src** | decoy-simulated training, CE v2+v3 ensemble, 3 seeds, per-source thresholds | 0.9889 | **0.9843** |
 | v7fr_A | 60% training entities, French-augmented CE, rule-A filter | 0.9893 | 0.984 |
 | v8 | group-trained reranker + uncertain-band corrector | 0.9894 | 0.9828 |
